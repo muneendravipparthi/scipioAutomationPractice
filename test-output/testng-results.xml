@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="63231" started-at="2019-12-02T07:34:52 IST" finished-at="2019-12-02T07:35:56 IST">
+    <groups>
+    </groups>
+    <test name="EnterApplicantID" duration-ms="63231" started-at="2019-12-02T07:34:52 IST" finished-at="2019-12-02T07:35:56 IST">
+      <class name="testCases.LoginToScipio">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.LoginToScipio@35d176f7]" name="openBrowser" is-config="true" duration-ms="17813" started-at="2019-12-02T07:34:52 IST" finished-at="2019-12-02T07:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:testCases.LoginToScipio@35d176f7]" name="initialization" is-config="true" duration-ms="46" started-at="2019-12-02T07:35:10 IST" finished-at="2019-12-02T07:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="loginWithValidCredintials()[pri:1, instance:testCases.LoginToScipio@35d176f7]" name="loginWithValidCredintials" duration-ms="7156" started-at="2019-12-02T07:35:10 IST" finished-at="2019-12-02T07:35:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredintials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LoginToScipio@35d176f7]" name="closeBrowser" is-config="true" duration-ms="1049" started-at="2019-12-02T07:35:54 IST" finished-at="2019-12-02T07:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LoginToScipio -->
+      <class name="testCases.CreateApplicant">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:testCases.CreateApplicant@1dfe2924]" name="initialization" is-config="true" duration-ms="4" started-at="2019-12-02T07:35:17 IST" finished-at="2019-12-02T07:35:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="addApplicant()[pri:2, instance:testCases.CreateApplicant@1dfe2924]" name="addApplicant" duration-ms="36997" started-at="2019-12-02T07:35:17 IST" finished-at="2019-12-02T07:35:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addApplicant -->
+      </class> <!-- testCases.CreateApplicant -->
+    </test> <!-- EnterApplicantID -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>
