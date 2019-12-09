@@ -1,35 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FirstTestSuite" duration-ms="63231" started-at="2019-12-02T07:34:52 IST" finished-at="2019-12-02T07:35:56 IST">
+  <suite name="FirstTestSuite" duration-ms="102078" started-at="2019-12-09T19:47:14 IST" finished-at="2019-12-09T19:48:56 IST">
     <groups>
     </groups>
-    <test name="EnterApplicantID" duration-ms="63231" started-at="2019-12-02T07:34:52 IST" finished-at="2019-12-02T07:35:56 IST">
+    <test name="EnterApplicantID" duration-ms="102078" started-at="2019-12-09T19:47:14 IST" finished-at="2019-12-09T19:48:56 IST">
       <class name="testCases.LoginToScipio">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.LoginToScipio@35d176f7]" name="openBrowser" is-config="true" duration-ms="17813" started-at="2019-12-02T07:34:52 IST" finished-at="2019-12-02T07:35:10 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.LoginToScipio@4973813a]" name="openBrowser" is-config="true" duration-ms="19913" started-at="2019-12-09T19:47:14 IST" finished-at="2019-12-09T19:47:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:testCases.LoginToScipio@35d176f7]" name="initialization" is-config="true" duration-ms="46" started-at="2019-12-02T07:35:10 IST" finished-at="2019-12-02T07:35:10 IST">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:testCases.LoginToScipio@4973813a]" name="initialization" is-config="true" duration-ms="40" started-at="2019-12-09T19:47:34 IST" finished-at="2019-12-09T19:47:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="loginWithValidCredintials()[pri:1, instance:testCases.LoginToScipio@35d176f7]" name="loginWithValidCredintials" duration-ms="7156" started-at="2019-12-02T07:35:10 IST" finished-at="2019-12-02T07:35:17 IST">
+        <test-method status="PASS" signature="loginWithValidCredintials()[pri:1, instance:testCases.LoginToScipio@4973813a]" name="loginWithValidCredintials" duration-ms="6079" started-at="2019-12-09T19:47:34 IST" finished-at="2019-12-09T19:47:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredintials -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LoginToScipio@35d176f7]" name="closeBrowser" is-config="true" duration-ms="1049" started-at="2019-12-02T07:35:54 IST" finished-at="2019-12-02T07:35:56 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LoginToScipio@4973813a]" name="closeBrowser" is-config="true" duration-ms="954" started-at="2019-12-09T19:48:55 IST" finished-at="2019-12-09T19:48:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.LoginToScipio -->
       <class name="testCases.CreateApplicant">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:testCases.CreateApplicant@1dfe2924]" name="initialization" is-config="true" duration-ms="4" started-at="2019-12-02T07:35:17 IST" finished-at="2019-12-02T07:35:17 IST">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:testCases.CreateApplicant@6321e813]" name="initialization" is-config="true" duration-ms="3" started-at="2019-12-09T19:47:40 IST" finished-at="2019-12-09T19:47:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="addApplicant()[pri:2, instance:testCases.CreateApplicant@1dfe2924]" name="addApplicant" duration-ms="36997" started-at="2019-12-02T07:35:17 IST" finished-at="2019-12-02T07:35:54 IST">
+        <test-method status="PASS" signature="addApplicant(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.CreateApplicant@6321e813]" name="addApplicant" duration-ms="35414" started-at="2019-12-09T19:47:44 IST" data-provider="testDataProvide" finished-at="2019-12-09T19:48:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Planned For]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addApplicant -->
+        <test-method status="PASS" signature="addApplicant(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.CreateApplicant@6321e813]" name="addApplicant" duration-ms="35839" started-at="2019-12-09T19:48:19 IST" data-provider="testDataProvide" finished-at="2019-12-09T19:48:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[124]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[235]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[457]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Planned For]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addApplicant -->
