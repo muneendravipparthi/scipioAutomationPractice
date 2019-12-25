@@ -20,6 +20,7 @@ public class ApplicantsPage {
 	By referredByPartyID = By.name("referredByPartyId");
 	By employmentAppSourceTypeID = By.name("employmentAppSourceTypeId");
 	By applicationDate = By.name("applicationDate_i18n");
+	By createbtn = By.id("AddEmploymentApp_submitAction");
 
 	public void navigateToNewEmployeeApplication() {
 		driver.findElement(NewEmployeeApplication).click();

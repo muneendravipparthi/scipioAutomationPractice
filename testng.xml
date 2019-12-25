@@ -5,6 +5,7 @@
 		<classes>
 			<class name="testCases.LoginToScipio" />
 			<class name="testCases.CreateApplicant" />
+			<class name="testCases.CreateLeave"/>
 		</classes>
 	</test> <!-- EnterApplicantID -->
 </suite> <!-- FirstTestSuite -->

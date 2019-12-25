@@ -11,9 +11,14 @@ public class DashboardPage {
 
 	By Applicants = By.linkText("Applications");
 	By EmployeesOrApplicants = By.linkText("Employees/Applicants");
+	By Leaves = By.linkText("Leave");
 
 	public void navigateToApplicants() {
 		driver.findElement(Applicants).click();
+	}
+	
+	public void navigateToLeaves() {
+		driver.findElement(Leaves).click();
 	}
 
 }
