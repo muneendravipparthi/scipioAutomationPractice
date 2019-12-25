@@ -2,6 +2,7 @@ package utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -25,5 +26,7 @@ public class BaseClass {
 	public void closeBrowser() {
 		driver.quit();
 	}
+
+	
 
 }
