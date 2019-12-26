@@ -18,9 +18,7 @@ public class ScreenshotUtility implements ITestListener {
 
 	// This method will execute when the test case is passed.
 	public void onTestSuccess(ITestResult tr) {
-
 		TakeScreenShot.captureScreenShot(tr, "pass");
-
 	}
 
 	// This method will execute when test case fails.
